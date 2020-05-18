@@ -19,3 +19,7 @@ have the link to open the post on the title of the post
 
 give multiple default images for post with option of 
     user to upload their own photo for the post
+
+Option to login 
+    Once logged in people can post
+    Need a database to hold username and password
