@@ -1,1 +1,5 @@
-<p>blog-post works!</p>
+<div>
+    <img class="blogPhoto" [src]="blogPost.photoPath" alt="blog image">
+    <h2 class="blogHeader">{{ blogPost.date + " " + blogPost.title }}</h2>
+    <p class="blogPrimaryContent">{{ blogPost.primaryContent }}</p>
+</div>
