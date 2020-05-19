@@ -1,0 +1,12 @@
+#mainTitle {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#logo {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+}
