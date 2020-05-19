@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   pages = [
-    {name: "Home", path: "index.html"},
-    {name: "Login", path: "#"}
+    {name: "Home", path: "/home"},
+    {name: "Login", path: "/login"}
   ];
   constructor() { }
 

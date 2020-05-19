@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { BlogPost } from '../blog-post'
 
 @Component({
@@ -7,14 +7,7 @@ import { BlogPost } from '../blog-post'
   styleUrls: ['./blog-post.component.css']
 })
 export class BlogPostComponent implements OnInit {
-  
-  blogPost : BlogPost = {
-    title: "test",
-    date: "5/19/2020",
-    contentPath: "",
-    photoPath: "assets/img/logo_temp.png",
-    primaryContent: "This is a test post in order to display the functionaility of the blogpost module and I wanted to see how long I could make this string in order to asldfjalk;jsdf",
-  }
+  @Input() blogPost: BlogPost;
 
   constructor() { }
 
