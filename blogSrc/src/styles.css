@@ -13,33 +13,3 @@ body {
     text-align: center;
     margin-top: 50px;
 }
-
-#navbar {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
-    background-color: #ff9e95;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-}
-
-.navText {
-    float: left;
-    font-size: 17px;
-    font-family: sans-serif;
-}
-
-.navLink {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 12px 15px;
-    text-decoration: none;
-}
-
-.navLink:hover {
-    text-decoration: none;
-    background-color: #262626;
-}
