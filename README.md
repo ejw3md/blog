@@ -12,6 +12,7 @@ posts
     topic categories
     date and time of post
     image
+    username
 
 add search bar
 
