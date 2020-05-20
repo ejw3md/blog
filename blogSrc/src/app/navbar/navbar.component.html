@@ -1,9 +1,12 @@
 <ul id="navbar">
-    <li class="navText" *ngFor="let page of pages;"><a class="navLink" [routerLink]="page.path">{{ page.name }}</a></li>
-    <div class="search-container">
+    <li class="navText" *ngFor="let page of pages;" [class.right]="page.path === '/login'">
+      <a class="navLink" [class.active]="page.path === this.router.url" [routerLink]="page.path">{{ page.name }}</a>
+    </li>
+    <div id="searchContainer">
         <form action="#">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
+          <button type="submit" id="searchIcon"><i class="fa fa-search"></i></button>
+          <input type="text" placeholder="Search.." name="search" id="searchbar">
+          
         </form>
       </div>
 </ul>

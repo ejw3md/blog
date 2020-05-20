@@ -1,6 +1,6 @@
 #navbar {
     list-style-type: none;
-    margin: 0px;
+    margin: 0;
     padding: 0;
     background-color: lightseagreen;
     position: fixed;
@@ -23,7 +23,38 @@
     text-decoration: none;
 }
 
-.navLink:hover {
+.navLink:hover:not(.active) {
     text-decoration: none;
     background-color: #262626;
 }
+  
+.active {
+    background-color: dimgray;
+  }
+.right {
+      float: right;
+  }
+
+  #searchIcon {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+  #searchContainer {
+    float: right;
+  }
+
+  #searchbar {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+  }
