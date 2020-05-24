@@ -1,1 +1,8 @@
-<p>blog-post-view works!</p>
+<div *ngIf="this.blogPost" id="headerWrapper">
+    <img class="blogPhoto" [src]="this.blogPost.PhotoPath" alt="blog image">
+    <h2 class="blogHeader">{{ this.blogPost.DatePosted + " " + this.blogPost.Title }}</h2>
+</div>
+<div id="clear"></div>
+<div id="contentWrapper">
+    <p *ngIf="this.blogPostContent">{{ this.blogPostContent }}</p>
+</div>

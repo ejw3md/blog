@@ -1,8 +1,8 @@
 export interface BlogPost {
-    id: number;
-    title: string;          /* title of post                */
-    date: string;           /* date of post                 */
-    contentPath: string;    /* content filepath on server   */
-    photoPath: string;      /* photo filepath on server     */
-    primaryContent: string; /* content shown on main page   */
+    ID: number;             /* ID of the post               */
+    Title: string;          /* title of post                */
+    DatePosted: string;     /* date of post                 */
+    PhotoPath: string;      /* photo filepath on server     */
+    Category: string;       /* content shown on main page   */
+    Username: string;       /* username of poster           */
 }

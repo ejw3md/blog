@@ -1,0 +1,28 @@
+.blogPhoto {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+h2 {
+    display: inline;
+}
+
+#imgWrapper {
+    margin: auto;
+}
+
+#headerWrapper {
+    text-align: center;
+    margin: auto;
+}
+
+#clear {
+    clear: both;
+}
+
+#contentWrapper {
+    margin: auto;
+    width: 80%;
+    
+}

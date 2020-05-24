@@ -1,1 +1,3 @@
-<app-blog-post *ngFor="let blogPost of blogPosts" [blogPost]="blogPost"></app-blog-post>
+<div *ngIf="this.blogPosts">
+    <app-blog-post *ngFor="let blogPost of this.blogPosts" [blogPost]="blogPost"></app-blog-post>
+</div>

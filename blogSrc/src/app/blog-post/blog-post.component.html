@@ -1,5 +1,4 @@
 <div>
-    <img class="blogPhoto" [src]="blogPost.photoPath" alt="blog image">
-    <h2 class="blogHeader"><a routerLink="/blog-post/{{ blogPost.id }}" >{{ blogPost.date + " " + blogPost.title }}</a></h2>
-    <p class="blogPrimaryContent">{{ blogPost.primaryContent }}</p>
+    <img class="blogPhoto" [src]="blogPost.PhotoPath" alt="blog image">
+    <h2 class="blogHeader"><a routerLink="/blog-post/{{ blogPost.ID }}" >{{ blogPost.DatePosted + " " + blogPost.Title }}</a></h2>
 </div>
