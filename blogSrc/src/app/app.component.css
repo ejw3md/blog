@@ -1,12 +1,23 @@
 #mainTitle {
-    margin-left: 200px;
-    margin-top: 112px;
+    margin-left: 230px;
+    margin-top: 180px;
     margin-bottom: 50px;
 }
 
 #logo {
     position: absolute;
-    top: 50px;
+    top: 120px;
     left: 20px;
     width: 200px;
+}
+
+#background {
+    position: absolute;
+    top: 80px;
+    left: 500px;
+    width: 60%;
+}
+
+#logos {
+    margin: 30px 0px;
 }

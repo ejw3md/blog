@@ -1,0 +1,31 @@
+
+#loginForm {
+    margin-top: 200px;
+    text-align: center;
+    
+}
+
+#user {
+    font-size: 30px;
+    margin: 0px 10px;
+}
+
+#pass {
+    font-size: 30px;
+    margin: 0px 10px;
+}
+
+#userbox {
+    font-size: 30px;
+    padding: 5px 0px;
+}
+
+#pwbox {
+    font-size: 30px;
+    padding: 5px 0px;
+}
+
+#button {
+    font-size: 20px;
+    background-color: lightseagreen;
+}
