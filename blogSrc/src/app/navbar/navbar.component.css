@@ -58,3 +58,7 @@
     border: none;
     font-size: 17px;
   }
+
+  #marginDiv {
+    margin-bottom: 40px;
+  }
