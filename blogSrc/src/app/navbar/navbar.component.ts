@@ -10,7 +10,8 @@ import { Router } from '@angular/router';
 export class NavbarComponent implements OnInit {
   pages = [
     {name: "Home", path: "/home"},
-    {name: "Login", path: "/login"}
+    {name: "Login", path: "/login"},
+    {name: "Create Post", path: "/post"}
   ];
 
   url: string;
